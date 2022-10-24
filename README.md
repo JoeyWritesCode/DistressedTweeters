@@ -1,5 +1,6 @@
 # DistressedTweeters
-A pipeline to query Twitter, and load the response into a .csv
+A pipeline to query Twitter, and load the response into a .csv \
+It takes a query in the format specified by the Twitter API documentation, converts it into HTTP encoding, and uses a bash script to put it all together with the authorisation token (NOTE: the current token is my personal one, as this is a proof of concept)
 
 ## 1. How to use
 First ensure you have the 'in2csv' library installed on your system. You can do this by opening a terminal and running: 
